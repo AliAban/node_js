@@ -1,0 +1,31 @@
+*, *::after, *::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: yellow    ;
+}
+
+#form{
+    border: 2px solid red;
+    display: grid;
+    justify-items: center;
+    gap: .5rem;
+}
+
+#form input , #form textarea{
+    display: block;
+    width: max(50rem, 20vw)
+}
+
+#form button{
+    width:100px;
+    border: none;
+    border-radius: 1000px;
+    background-color: aquamarine;
+    color: whitesmoke;
+    padding: .5rem;
+}
+
